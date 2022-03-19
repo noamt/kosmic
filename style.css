@@ -1,10 +1,30 @@
 body {
- background-color: #2b1165;
- background: linear-gradient(
-    180deg,
-    #2b1165 0%,
-    rgba(26, 58, 130, 1) 37%,
-    rgba(171, 36, 177, 1) 69%,
-    #f54171 100%
-   );
+    background-color: #2b1165;
+    background: linear-gradient(
+        180deg,
+        #2b1165 0%,
+        rgba(26, 58, 130, 1) 37%,
+        rgba(171, 36, 177, 1) 69%,
+        #f54171 100%
+    );
+    font-family: monospace;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    letter-spacing: 10px;
+    font-size: 100px;
+}
+
+h2 {
+    letter-spacing: 5px;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+p {
+    letter-spacing: 2px;
+    word-spacing: 5px;
 }
