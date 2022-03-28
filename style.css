@@ -4,11 +4,18 @@ body {
         180deg,
         #2b1165 0%,
         rgba(26, 58, 130, 1) 37%,
-        rgba(171, 36, 177, 1) 69%,
-        #f54171 100%
+        rgb(134, 28, 139) 69%,
+        #9b2847 100%
     );
     font-family: monospace;
     color: rgba(255, 255, 255, 0.8);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 20px;
 }
 
 h1 {
@@ -18,10 +25,17 @@ h1 {
 
 h2 {
     letter-spacing: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-h1,h2 {
+h1,h2, .subtitle {
     text-align: center;
+}
+
+h3 {
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 p {
