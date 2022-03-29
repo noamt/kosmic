@@ -1,3 +1,21 @@
+#sun {
+    width: 200px;
+    height: 200px;
+    background-color: #2b1165;
+    background: linear-gradient(
+        180deg,
+        #9b2847 0%,
+        rgb(134, 28, 139) 37%,
+        rgba(26, 58, 130, 1) 69%,
+        #2b1165 100%
+    );
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: -1;
+}
+
 body {
     background-color: #2b1165;
     background: linear-gradient(
