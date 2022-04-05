@@ -10,6 +10,7 @@
     line-height: 2rem;
     position: relative;
     transition: 0.5s;
+    box-sizing: unset;
 }
 
 #forkongithub a:hover {
