@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kosmic.systems
+Token: ee84cfc82962fc595b87d575570884ae62a1c318c9069df5bbd63d14c7234495
